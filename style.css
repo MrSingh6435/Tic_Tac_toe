@@ -317,18 +317,27 @@ footer:hover i{
     box-shadow: 0 0 10px solid red;
 }
 
+#new-game1{
+    display: none;
+}
+
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
+    body{
+        height: 10vh !important;
+        position: fixed;
+    }
+
     header {
         padding: 10px 20px;
-        height: 10vh;
+        height: 10%;
     }
 
     #login{
-        height: 80vh;
+        height: 80%;
     }
     
     #game-section{
-        height: 80vh;
+        height: 80%;
     }
 
     .user-input {
@@ -366,6 +375,10 @@ footer:hover i{
         align-items: center;
         padding-top: 2rem;
     }
+    #new-game1{
+        display: inline;
+    }
+
 }
 
 @media only screen and (max-width: 700px) {
