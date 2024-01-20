@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Game.TejayProduction.co</title>
+</head>
+
+<body class="colors1">
+    <header>
+        <h2 id="logo"><i>Tejay</i></h2>
+        <div class="colors-div" id="colors">
+            <div class="color-box box1"></div>
+            <div class="color-box box2"></div>
+            <div class="color-box box3"></div>
+            <div class="color-box box4"></div>
+        </div>
+        <button class="btn" id="new-game">New Game</button>
+    </header>
+
+    <!-- login Section -->
+    <section id="login">
+        <div class="user-input">
+            <h1 class="heading1">Welcome to Tic Tac Toe game </h1>
+            <form action="" method="post">
+                <div class="input playerO">
+                    <!-- <label for="playerO" id="playerO-label">Player O</label> -->
+                    <input type="text" name="playerO" id="playerO" placeholder="Player O">
+                </div>
+                <div class="input playerX">
+                    <!-- <label for="playerX" id="playerX-label">Player X</label> -->
+                    <input type="text" name="playerX" id="playerX" placeholder="Player X">
+                </div>
+                <div class="start-btn-box">
+                    <button id="start-game" class="start-game" type="submit">Start Game</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- game section -->
+    <section id="game-section" class="hide">
+        <div class="game">
+            <h1 class="heading center">Tic Tac Toe <span></span></h1>
+            <div class="game-container">
+                <div class="box tb-0 lb-0"></div>
+                <div class="box tb-0"></div>
+                <div class="box tb-0 rb-0"></div>
+                <div class="box lb-0"></div>
+                <div class="box"></div>
+                <div class="box rb-0"></div>
+                <div class="box bb-0 lb-0"></div>
+                <div class="box bb-0"></div>
+                <div class="box bb-0 rb-0"></div>
+            </div>
+
+            <div class="info">
+                <h2 class="sec-heading">Welcome to my Game Project</h2>
+                <h4 id="turn" class="tern">Start game</h4>
+                <h5 id="winnerIs" class="winer">The winner is</h5>
+                <div class="dance">
+                    <img id="dance" src="gif/win (7).gif" alt="" srcset="">
+                    <img id="draw" src="gif/draw (2).gif" alt="" srcset="">
+                </div>
+                <div class="buttons">
+                    <button class="btn" id="restart">Restart</button>
+                    <button class="btn" id="new-game1">New Game</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <i class="material-icons music">volume_up</i>
+    </footer>
+    <script src="/app.js"></script>
+</body>
+
+</html>
