@@ -317,6 +317,10 @@ footer:hover i{
     box-shadow: 0 0 10px solid red;
 }
 
+ #new-game1{
+        display: none;
+}
+
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
     header {
         padding: 10px 20px;
@@ -365,6 +369,9 @@ footer:hover i{
         justify-content: center;
         align-items: center;
         padding-top: 2rem;
+    }
+     #new-game1{
+        display: inline;
     }
 }
 
